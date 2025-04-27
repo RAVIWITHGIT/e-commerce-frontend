@@ -214,7 +214,7 @@ const HomePage = () => {
           <div className="sm:col-span-2 lg:col-span-3 ">
             {/* {JSON.stringify(radio, null, 4)} */}
             <h2 className="my-3 pl-5 text-3xl font-serif">All Product</h2>
-            <div className="grid grid-cols-2 lg:grid-cols-3 max-w-4xl gap-3 m-auto">
+            <div className="grid grid-cols-2 lg:grid-cols-3  max-w-4xl gap-3 m-auto mb-4">
               {Products.map((value) => {
                 return (
                   <div className="rounded bg-gray-500">
